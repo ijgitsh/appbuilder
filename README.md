@@ -35,8 +35,16 @@ cd python-code-generator
 def run_ibm_api(self):
         API_KEY = "<INSERT API KEY>"
 ```
+4- Edit the URL with your agent end point from the deployment space
+```bash
+            response_scoring = requests.post(
+                'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/51373fbb-6f2f-4b78-af5b-8e568d111f1b/ai_service?version=2021-05-01',
+                json=payload_scoring,
+                headers=header
+            )
+```
 
-3-Run the application:
+5-Run the application:
 ```bash
 python3.21 app-create-v2.py
 ```
