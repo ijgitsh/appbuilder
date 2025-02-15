@@ -21,12 +21,16 @@ Automatic Code Execution: The extracted Python code can be executed directly wit
 ### Steps
 1- Clone the repository:
 
-''' git clone https://github.com/ijgitsh/appbuilder.git
+```bash
+ git clone https://github.com/ijgitsh/appbuilder.git
 cd python-code-generator
-
+```
 2- Install dependencies:
-''' pip install -r requirements.txt
+```bash
+ pip install -r requirements.txt
+```
 
 3-Run the application:
-'''
+```bash
 python3.21 app-create-v2.py
+```
