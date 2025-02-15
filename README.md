@@ -30,6 +30,12 @@ cd python-code-generator
  pip install -r requirements.txt
 ```
 
+3- Edit API_KEY  variable in the code
+```bash
+def run_ibm_api(self):
+        API_KEY = "<INSERT API KEY>"
+```
+
 3-Run the application:
 ```bash
 python3.21 app-create-v2.py
